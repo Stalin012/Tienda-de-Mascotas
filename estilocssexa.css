@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(rgba(149, 247, 250, 0.75), rgba(148, 134, 88, 0.75)), 
+    url('../imagenes/mascota.png');
+}
+.hamburguer{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: white;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px black;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20vw;
+    height: 100%;
+    background-image: linear-gradient(135deg, rgba(255, 155, 4, 100) 0%, rgba(85, 65, 0, 100) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 6px red;
+    transition: transform .3s ease-in-out;
+    transform: translate(110%);
+}
+.spread{
+    transform: translate(0);
+}
+.menu a{
+    color: black; text-decoration: none;
+}
+#cabecera{
+    color:green; text-align: center; margin: auto;
+}
+#cabecera h1 {
+    color:blue; text-align: center;
+}
+#cuerpo{
+    color:red; 
+    text-align: center; margin: auto;
+}
+#cuerpo p {
+    color:black; 
+    text-align: justify;letter-spacing: normal;
+}
+#pie{
+    color:blue; 
+    text-align: center; margin: auto;
+}
+#cuerpo li {
+    color:red;  
+    width:50%;
+    text-align: left;
+    letter-spacing: normal;
+}

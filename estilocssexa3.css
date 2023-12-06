@@ -1,0 +1,33 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(rgba(149, 250, 211, 0.75), rgba(148, 134, 88, 0.75)), 
+    url('../imagenes/productoss.jpg');
+}
+#cabecera{
+    color:green;  
+    text-align: center; margin: auto;
+}
+#cabecera h1 {
+    color:blue;  
+    text-align: center;
+}
+#cuerpo{
+    color:red;   
+    text-align: center; margin: auto;
+}
+#cuerpo p {
+    color:black;  
+    text-align: justify; letter-spacing: normal;
+}
+#pie{
+    color:blue;   
+    text-align: center; margin: auto;
+}
+#cuerpo li {
+    color:red; width:50%; 
+    text-align: left; letter-spacing: normal;
+}
